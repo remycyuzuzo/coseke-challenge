@@ -1,0 +1,152 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #e9eaf4;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+    width: 100%;
+    padding: 10px;
+}
+
+.header h3 {
+    text-align: center;
+}
+
+.dragging {
+    background-color: rgb(50, 163, 50);
+    color: #ffffff;
+}
+
+.dragging-error {
+    background-color: rgb(230, 169, 169);
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+a {
+    color: blue;
+}
+
+.drop-area-container {
+    border-radius: 20px;
+    border: 2px #777777 dashed;
+    width: 100%;
+}
+
+.drop_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 200px;
+}
+
+.preview {
+    display: flex;
+}
+
+.preview * {
+    padding: 10px 6px;
+}
+
+.preview img {
+    height: 50px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+form .submit {
+    padding: 10px 1.6em;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(28, 28, 184);
+    color: #ffffff;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.files {
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #dddcdc;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    margin-bottom: .6em;
+    background-color: #f2f2f2;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.thumb .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.thumb .img img {
+    width: 20px;
+    height: 20px;
+}
+
+.file .desc {
+    padding: 0 10px;
+}
+
+a[download] {
+    background-color: rgb(166, 188, 204);
+    color: #16567e;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+button.submit {
+    background-color: rgb(35, 35, 83);
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.display {
+    margin-top: 1.5em;
+}
+
+.display .table {
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+}
+
+.display .table thead {
+    background-color: #3b5784;
+    color: #ffffff;
+}
+
+th,
+td {
+    padding: 10px;
+}
